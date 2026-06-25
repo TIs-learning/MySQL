@@ -13,7 +13,7 @@ Day 1
 > Number: Int, float, decimal, attribute.
 > String: Char, Varchar, perbedaannya adalah cara menyimpannya
 
-Dat 2
+Day 2
 ----------
 *syntax penting
 > Engine Mengolah data: show engines;
