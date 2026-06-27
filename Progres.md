@@ -38,3 +38,26 @@ Day 2
 
 *konsep penting
 > Tipe data Date dan Time, Boolean, dan berbagai tipe data lainnya
+
+Day 3
+--------
+*syntax 
+> Memasukkan data > INSERT INTO;
+INSERT INTO jadwal(id, Hari, name, description, quantity)
+    -> VALUES ('1', 'Selasa', 'Louis', 'Python', '30'); (bisa ditumpuk juga
+> Mengambil data: SELECT id, name, price, a, b from jadwal; (*  = semuanya)
+CREATE TABLE Jadwal (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    Hari VARCHAR(10) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    description TEXT,
+    quantity INT UNSIGNED NOT NULL DEFAULT 0,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+) ENGINE = InnoDB;
+> ADD PRIMARY KEY (id);
+
+*konsep
+> Primary Key = representasi id
+> bisa multiple column
+> set primary key = tidak bisa set nilai unik key yang sama
