@@ -1,3 +1,5 @@
+Note: Belum Tersedia
+
 # MySQL
 Documenting Learning Database SQL
 
